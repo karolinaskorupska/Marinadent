@@ -1,0 +1,280 @@
+/* font-family: 'Lora', serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
+
+
+
+body
+{
+    background-color: white;
+    margin: 0;
+}
+
+#glowna
+{
+    min-height: 650px;
+    background-image: url(img/logo.jpg);
+    background-size: cover;
+    background-attachment: local;
+    background-repeat: no-repeat;
+}
+
+
+.menu
+{
+	list-style-type: none;
+    float: right;
+    margin-right: 40px;
+	font-size: 22px;
+	min-height: 38px;
+	line-height: 200%;
+    font-family: 'Julius Sans One', sans-serif;
+    font-variant-caps: all-petite-caps;
+    color: #4e5e66;
+    float: clear;
+}
+
+.menu > li
+{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.menu a
+{
+	color: #4e5e66;
+	text-decoration: none;
+}
+
+.menu a:hover
+{
+	color: #4e5e66;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.logo
+{
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+}
+
+p1
+{
+   font-family: 'Lora', serif;
+    font-weight: 600;
+    color: #77848a;
+}
+
+p2
+{
+   font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #77848a;
+}
+
+
+p3
+{
+    font-family: 'Work Sans', sans-serif;
+    color: #3c454a;
+}
+
+main
+{
+    margin: 80px 150px 80px 150px;
+}
+
+.onas1
+{
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.onas2
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.lewy2
+{
+    float: left;
+    width: 300px;
+    height: 400;
+    
+}
+
+.prawy2
+{
+    float: right;
+}
+
+#carouselExampleControls
+{
+    width: 450px;
+    height: 400px;
+    object-fit: fill;
+}
+
+.onas3
+{
+    font-size: 15px;
+    margin-top: 200px;
+}
+
+.lewy3
+{
+    float: left;
+    margin-top: 80px;
+    
+}
+
+.prawy3
+{
+    float: right;
+    width: 380px;
+    height: auto;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.images
+{
+    margin-bottom: 200px;
+}
+
+
+
+.lewy4
+{
+    width: 350px;
+    height: 500px;
+    float: left;
+    margin: 10px;
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+}
+
+.prawy4
+{
+    width: 450;
+    height: 500;
+    float: right;
+    margin: 10px;
+}
+
+.gora
+{
+    width: 400px;
+    height: 250px;
+    float: right;
+    background-image: url(img/img2.jpg);
+    background-size: cover;
+}
+
+.dol1
+{
+    width: 180px;
+    height: 220px;
+    float: left;
+    margin: 30px 5px 0px 0px;
+    background-image: url(img/img3.jpg);
+    background-size: cover;
+}
+
+.dol2
+{
+    width: 180px;
+    height: 220px;
+    float: right;
+    margin: 30px 0px 0px 5px;
+    background-image: url(img/img4.jpg);
+    background-size: cover;
+}
+
+.oferta
+{
+    margin-top: 500px;
+    
+}
+
+.zakres
+{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.uslugi
+{
+    font-size: 16px;
+    width: 180px;
+    height: 350px;
+    float: left;
+    text-align: center;
+    margin: 50px 40px 200px 40px;
+}
+
+.lewy5
+{
+    float: left;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-left: 100px;
+    font-size: 12px;
+}
+
+p4
+{
+    font-size: 25px;
+}
+
+.prawy5
+{
+    float: left;
+    margin-left: 30px;
+}
+
+.kontakt
+{
+    margin-bottom: 50px;
+}
+.stopka
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    background-image: url(img/granatowe.png);
+    background-size: cover;
+}
+
+footer
+{
+    width: 100%;
+    background-color: #201c57; 
+}
+
+.scrollup
+{
+	width: 64px;
+	height: 64px;
+	text-decoration: none;
+	background: url("img/scrollup.png") no-repeat 0px 0px;
+	position: fixed;
+	right: 150px;
+	bottom: 150px;
+	display: none;
+}
